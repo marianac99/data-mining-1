@@ -10,8 +10,8 @@ output:
 Instalar el paquete arulesViz
 
 ```{r}
-#install.packages("arulesViz")
-#install.packages("devtools")
+install.packages("arulesViz")
+install.packages("devtools")
 devtools::install_github("hadley/emo")
 library("emo")
 ```

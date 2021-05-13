@@ -86,7 +86,7 @@ Modifica el código de abajo para crear un scatter plot con las siguientes propi
 
 ```{r}
 #plot(rules, measure = c("h-axis", "v-axis"), shading = "measure")
-plot(rules, measure = c("lift", "support"), shading = "confidence")
+plot(rules, measure = c("support", "lift"), shading = "confidence")
 ```
 
 
@@ -95,7 +95,7 @@ Modifica el código de abajo para crear una gráfica scatter plot con support y 
 ```{r}
 # Por omisión la gráficas scatter plot en arulesViz presentan support en el eje horizontal y confidence en el eje vertical
 #plot(rules, shading="measure")
-plot(rules, shading = "lift")
+plot(rules, shading = "coverage")
 ```
 
 
